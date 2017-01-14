@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "homepage": "https://github.com/huangdashun/learnAngularjs1",
+  "authors": [
+    "dashunzi <406846759@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table ng-app="myApp" ng-controller="LoginCtrl">
+    <tr>
+        <td>用户名</td>
+        <td><input type="text" ng-model="user.username"></td>
+    </tr>
+    <tr>
+        <td>密码</td>
+        <td><input type="password" ng-model="user.password"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" ng-click="login()" value="登录"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td ng-bind="message"></td>
+    </tr>
+</table>
+<script>
+
+</script>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('LoginCtrl', ['$scope', function ($scope) {
+        $scope.user = {
+            username: '',
+            password: ''
+        };
+        $scope.message = '请输入帐号密码';
+        $scope.login = function () {
+
+        };
+        $scope.$watch('user.username', function (now, old) {
+            console.log('now is ' + now);
+            console.log('old is ' + old);
+            if(now){
+                $scope.message = '登录成功';
+            }
+        });
+    }]);
+</script>
+</body>
+</html>
