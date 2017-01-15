@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Angular Hello world</title>
 </head>
-<body>
-<div ng-app="myApp" ng-controller="LoginCtrl">
+<body ng-app="myApp" ng-controller="LoginCtrl" ng-cloak="">
+<div >
     <h1>使用NG实现双向绑定</h1>
     <p><input type="text" placeholder="请输入你的姓名" ng-model="user.name"></p>
     <p>hello <strong>{{user.name}}</strong></p>
@@ -15,14 +15,14 @@
 <script>
     //angular.module(?,?);传递一个参数是获取,两个参数是创建
     var app = angular.module('myApp', []);
-    app.controller('LoginCtrl', ['$scope', function (a) {
+    app.controller('LoginCtrl', ['$scope', function ($scope) {
         //当控制器执行时，会自动执行函数
-      /*  $scope.user = {};
+        $scope.user = {};
         $scope.user.name = '张三';
         $scope.show = function () {
             console.log($scope.user);
-        }*/
-        console.log(a);
+        }
+
     }]);
 </script>
 </body>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-switch用法</title>
+</head>
+<body ng-app>
+<script src="bower_components/angular/angular.js"></script>
+<select ng-model="selected">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+<div ng-switch="selected">
+    <div ng-switch-when="1">
+        选择了1
+    </div>
+    <div ng-switch-when="2">
+        选择了2
+    </div>
+    <div ng-switch-when="3">
+        选择了3
+    </div>
+    <div ng-switch-default="">
+        没有做任何选择
+    </div>
+</div>
+
+</body>
+</html>

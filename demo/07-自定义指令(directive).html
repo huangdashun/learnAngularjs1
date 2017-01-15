@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义指令</title>
+</head>
+<body ng-app="myApp">
+<itdashun-button></itdashun-button>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myApp = angular.module('myApp', []);
+    //第一个参数是指令的名字，第二个参数仍然应该使用一个数组
+    myApp.directive('itdashunButton', [function () {
+        //该函数应该返回一个指令对象
+        return {
+            template: '<input type="button" value="itdashun" class="btn btn-lg btn-primary btn-block"/>'
+        }
+    }]);
+</script>
+</body>
+</html>

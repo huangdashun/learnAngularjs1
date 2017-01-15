@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    (function (window) {
+        var url = 'https://www.itdashun.com?name=dashun#test';
+        var aLink = window.document.createElement('a');
+        aLink.href = url;
+        console.log(aLink.search)
+        console.log(aLink.hash)
+    })(window);
+</script>
+</body>
+</html>

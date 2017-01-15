@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-repeat的用法</title>
+    <style>
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+    </style>
+</head>
+<body ng-app="myApp" ng-controller="ListCtrl">
+<input type="text" placeholder="请输入要变色的条目" ng-model="content">
+<ul>
+    <li ng-repeat="item in data track by $index " ng-class="{red:content!=''&&item.startsWith(content)}">{{item}}</li>
+</ul>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myApp = angular.module('myApp', [])
+            .controller('ListCtrl', ["$scope", function ($scope) {
+                $scope.data = ['黄顺', '黄顺1', '黄顺2', '黄顺3', '123', '123', '123'];
+            }]);
+</script>
+</body>
+</html>
