@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="myApp" ng-controller="DataCtrl">
+<breadcrumb data="{{data}}"></breadcrumb>
+<script src="bower_components/angular/angular.js"></script>
+<script>
+    var myApp = angular.module('myApp', []);
+    myApp.controller('DataCtrl', ['$scope', function ($scope) {
+        $scope.data = {
+            home: '#',
+            itcast: '#',
+            itheima: '#',
+            bbs: '#'
+        };
+    }]);
+    myApp.directive('breadcrumb', [function () {
+        return {
+
+            replace: true,
+            templateUrl: 'tmpls/breadcrumb.html',
+            link:function(scope,element,attributes){
+            scope.data = JSON.parse(attributes.data);
+            }
+        };
+    }]);
+</script>
+</body>
+</html>
