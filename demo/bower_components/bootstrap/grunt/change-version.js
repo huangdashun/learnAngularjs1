@@ -85,7 +85,7 @@ function main(args) {
   var newVersion = args[1];
   var EXCLUDED_DIRS = new Set([
     '.git',
-    'node_modules',
+    'node_modules2',
     'vendor'
   ]);
   var INCLUDED_EXTENSIONS = new Set([
