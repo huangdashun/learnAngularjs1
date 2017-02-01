@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0374b6c-1681-4c4f-9530-d51b90d52ade" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-boilerplate" afterPath="$PROJECT_DIR$/angular-boilerplate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todomvc-app-template" afterPath="$PROJECT_DIR$/todomvc-app-template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-boilerplate/app/app.js" afterPath="$PROJECT_DIR$/angular-boilerplate/app/app.js" />
     </list>
     <ignored path="learnAngularjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="09-自定义面包屑.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/09-自定义面包屑.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43548387">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.58064514">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -203,8 +203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/09-自定义面包屑.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43548387">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.58064514">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding />
         </state>
       </provider>
