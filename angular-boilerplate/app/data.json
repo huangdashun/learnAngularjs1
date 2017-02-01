@@ -1,0 +1,213 @@
+{
+  "count": 3,
+  "start": 5,
+  "total": 24,
+  "subjects": [
+	{
+	  "rating": {
+		"max": 10,
+		"average": 5.1,
+		"stars": "25",
+		"min": 0
+	  },
+	  "genres": [
+		"喜剧",
+		"动作"
+	  ],
+	  "title": "铁道飞虎",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1054531/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/694.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/694.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/694.jpg"
+		  },
+		  "name": "成龙",
+		  "id": "1054531"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1337445/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/1405266144.28.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/1405266144.28.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/1405266144.28.jpg"
+		  },
+		  "name": "黄子韬",
+		  "id": "1337445"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1314544/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1444998211.72.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1444998211.72.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1444998211.72.jpg"
+		  },
+		  "name": "王凯",
+		  "id": "1314544"
+		}
+	  ],
+	  "collect_count": 39273,
+	  "original_title": "铁道飞虎",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1274856/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/20143.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/20143.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/20143.jpg"
+		  },
+		  "name": "丁晟",
+		  "id": "1274856"
+		}
+	  ],
+	  "year": "2016",
+	  "images": {
+		"small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2404720316.jpg",
+		"large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2404720316.jpg",
+		"medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2404720316.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/26389069/",
+	  "id": "26389069"
+	},
+	{
+	  "rating": {
+		"max": 10,
+		"average": 8.8,
+		"stars": "45",
+		"min": 0
+	  },
+	  "genres": [
+		"剧情",
+		"传记",
+		"动作"
+	  ],
+	  "title": "血战钢锯岭",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1022620/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/13151.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/13151.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/13151.jpg"
+		  },
+		  "name": "安德鲁·加菲尔德",
+		  "id": "1022620"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1000147/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/35783.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/35783.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/35783.jpg"
+		  },
+		  "name": "萨姆·沃辛顿",
+		  "id": "1000147"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1002673/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/6056.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/6056.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/6056.jpg"
+		  },
+		  "name": "文斯·沃恩",
+		  "id": "1002673"
+		}
+	  ],
+	  "collect_count": 169601,
+	  "original_title": "Hacksaw Ridge",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1054530/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/680.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/680.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/680.jpg"
+		  },
+		  "name": "梅尔·吉布森",
+		  "id": "1054530"
+		}
+	  ],
+	  "year": "2016",
+	  "images": {
+		"small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2397337958.jpg",
+		"large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2397337958.jpg",
+		"medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2397337958.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/26325320/",
+	  "id": "26325320"
+	},
+	{
+	  "rating": {
+		"max": 10,
+		"average": 7.9,
+		"stars": "40",
+		"min": 0
+	  },
+	  "genres": [
+		"剧情",
+		"战争"
+	  ],
+	  "title": "天空之眼",
+	  "casts": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1054390/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/21169.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/21169.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/21169.jpg"
+		  },
+		  "name": "海伦·米伦",
+		  "id": "1054390"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1049498/",
+		  "avatars": {
+			"small": "http://img3.doubanio.com/img/celebrity/small/1307.jpg",
+			"large": "http://img3.doubanio.com/img/celebrity/large/1307.jpg",
+			"medium": "http://img3.doubanio.com/img/celebrity/medium/1307.jpg"
+		  },
+		  "name": "亚伦·保尔",
+		  "id": "1049498"
+		},
+		{
+		  "alt": "https://movie.douban.com/celebrity/1025153/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/10644.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/10644.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/10644.jpg"
+		  },
+		  "name": "艾伦·瑞克曼",
+		  "id": "1025153"
+		}
+	  ],
+	  "collect_count": 43543,
+	  "original_title": "Eye in the Sky",
+	  "subtype": "movie",
+	  "directors": [
+		{
+		  "alt": "https://movie.douban.com/celebrity/1045060/",
+		  "avatars": {
+			"small": "http://img7.doubanio.com/img/celebrity/small/1353058554.65.jpg",
+			"large": "http://img7.doubanio.com/img/celebrity/large/1353058554.65.jpg",
+			"medium": "http://img7.doubanio.com/img/celebrity/medium/1353058554.65.jpg"
+		  },
+		  "name": "加文·胡德",
+		  "id": "1045060"
+		}
+	  ],
+	  "year": "2015",
+	  "images": {
+		"small": "http://img7.doubanio.com/view/movie_poster_cover/ipst/public/p2411665175.jpg",
+		"large": "http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p2411665175.jpg",
+		"medium": "http://img7.doubanio.com/view/movie_poster_cover/spst/public/p2411665175.jpg"
+	  },
+	  "alt": "https://movie.douban.com/subject/10484117/",
+	  "id": "10484117"
+	}
+  ],
+  "title": "正在上映的电影-北京"
+}

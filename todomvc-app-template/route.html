@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body ng-app="myApp">
+<div ng-view></div>
+<a href="#/a">进入a的控制器</a>
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-route/angular-route.js"></script>
+<script id="tmpl" type="text/ng-template">
+
+	<h1>{{title}}</h1>
+</script>
+
+<script>
+	var app = angular.module('myApp', ['ngRoute']);
+	app.config(['$routeProvider', function ($routeProvider) {
+		$routeProvider.when('/a', {
+			controller: 'ACtrl',
+			templateUrl: 'tmpl'
+		}).when('/b', {
+			controller: 'BCtrl',
+			templateUrl: 'tmpl'
+		}).when('/c', {
+			controller: 'CCtrl',
+			templateUrl: 'tmpl'
+		})
+				.otherwise({
+					redirectTo:'/a'
+				});
+	}]);
+	app.controller('ACtrl', ['$scope', '$location', function ($scope, $location) {
+		console.log($location.hash());
+		$scope.title = 'ACtrl';
+	}]);
+	app.controller('BCtrl', ['$scope','$location', function ($scope,$location) {
+		console.log($location.path());
+		$scope.title = 'BCtrl';
+	}]);
+	app.controller('CCtrl', ['$scope','$location', function ($scope,$location) {
+		console.log($location.hash());
+		$scope.title = 'CCtrl';
+	}]);
+</script>
+</body>
+</html>
