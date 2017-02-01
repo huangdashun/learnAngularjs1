@@ -15,7 +15,6 @@
 			var cbFuncName = 'my_json_cb_'+Math.random().toString().replace('.', '');
 			//$window.my_json_cb_011942038362870733 = callback;
 			$window[cbFuncName] = callback;
-			console.log(callback);
 			//2.将data转换为url字符串的形式  {count:6,start:7}-->?count=6&start=7;
 			var querystring = '?';
 			for (var key  in data) {

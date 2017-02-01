@@ -4,9 +4,7 @@
 // Declare app level module which depends on views, and components
 	angular.module('moviecat', [
 		'ngRoute',
-		'moviecat.in_theaters',
-		'moviecat.top250',
-		'moviecat.coming_soon'
+		'moviecat.movie.list'
 	]).
 	config(['$routeProvider', function($routeProvider) {
 		$routeProvider.otherwise({redirectTo: '/in_theaters/1'});
