@@ -37,11 +37,11 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-3 col-md-2 sidebar">
+		<div class="col-sm-3 col-md-2 sidebar" ng-controller="NavCtrl">
 			<ul class="nav nav-sidebar">
-				<li class="active"><a href="#/in_theaters/1">正在热映</a></li>
-				<li><a href="#/coming_soon/1">即将上映</a></li>
-				<li><a href="#/top250/1">TOP</a></li>
+				<li ng-class="{active:type=='in_theaters'?true:false}"><a href="#/in_theaters/1">正在热映</a></li>
+				<li ng-class="{active:type=='coming_soon'?true:false}"><a href="#/coming_soon/1">即将上映</a></li>
+				<li ng-class="{active:type=='top250'?true:false}"><a href="#/top250/1">TOP</a></li>
 			</ul>
 
 		</div>
