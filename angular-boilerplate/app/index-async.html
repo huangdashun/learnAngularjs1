@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="bower_components/script.js/dist/script.js"></script>
+	<script>
+		/*异步方式加载包*/
+		$script('./bower_components/jquery/dist/jquery.js', function () {
+			//加载完jquery之后才执行
+			console.log($);
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>
