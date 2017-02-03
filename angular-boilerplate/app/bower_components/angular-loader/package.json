@@ -1,6 +1,6 @@
 {
   "name": "angular-loader",
-  "version": "1.6.1",
+  "version": "1.5.0",
   "description": "AngularJS module for asynchronously loading modules",
   "main": "angular-loader.js",
   "scripts": {
@@ -22,12 +22,5 @@
   "bugs": {
     "url": "https://github.com/angular/angular.js/issues"
   },
-  "homepage": "http://angularjs.org",
-  "jspm": {
-    "shim": {
-      "angular-loader": {
-        "deps": ["angular"]
-      }
-    }
-  }
+  "homepage": "http://angularjs.org"
 }

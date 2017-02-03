@@ -1,13 +1,13 @@
 (function (angular) {
 	'use strict';
-	angular.module('moviecat.movie.list', ['ngRoute', 'moviecat.services.http'])
+	angular.module('moviecat.movie_list', ['ngRoute', 'moviecat.services.http'])
 		.config(['$routeProvider', function ($routeProvider) {
 			$routeProvider.when('/:category/:page', {
 				templateUrl: 'movie_list/view.html',
 				controller: 'MovieListCtrl'
 			});
 		}])
-		.controller('MovieListCtrl', ['$scope', '$routeParams', '$route','HttpService', function ($scope, $routeParams,$route, HttpService) {
+		.controller('MovieListCtrl', ['$scope',  '$route','$routeParams','HttpService', function ($scope, $route,$routeParams, HttpService) {
 			var count = 2;
 			//获取传入的page
 			var page = parseInt($routeParams.page);

@@ -4,12 +4,15 @@
 // Declare app level module which depends on views, and components
 	angular.module('moviecat', [
 		'ngRoute',
-		'moviecat.movie.list',
+		'moviecat.movie_detail',
+		'moviecat.movie_list',
+
 		'moviecat.directives.auto_focus'
+
 	]).config(['$routeProvider', function ($routeProvider) {
 			$routeProvider.otherwise({redirectTo: '/in_theaters/1'});
 		}])
-		.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
+		/*.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
 			$scope.$location = $location;
 			$scope.$watch('$location.path()', function (now, old) {
 				if (now.toString().indexOf('in_theaters') != -1) {
@@ -21,7 +24,7 @@
 				}
 			});
 
-		}])
+		}])*/
 		.controller('SearchCtrl', ['$scope', '$route', function ($scope, $route) {
 			$scope.input = '';
 			$scope.search = function () {
