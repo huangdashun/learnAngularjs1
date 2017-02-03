@@ -21,6 +21,13 @@
 				}
 			});
 
+		}])
+		.controller('SearchCtrl', ['$scope', '$route', function ($scope, $route) {
+			$scope.input = '';
+			$scope.search = function () {
+				//更新路由的参数
+				$route.updateParams({category: 'search', q: $scope.input, page: 1});
+			}
 		}]);
 
 })(angular);

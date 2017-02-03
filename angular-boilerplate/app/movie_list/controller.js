@@ -18,6 +18,7 @@
 			$scope.loading = true;
 			$scope.totalPages = 0;
 			$scope.currentPage = page;
+			$scope.title = 'Loading...';
 			/*		var doubanMovieApi = 'http://api.douban.com/v2/movie/coming_soon?callback=JSON_CALLBACK&count=10&start=5';
 			 //在Angular中使用JSONP的方式做跨域请求
 			 //就必须给当前地址加上一个参数callback = JSON_CALLBACK
@@ -36,7 +37,9 @@
 			 });*/
 			HttpService.jsonp('http://api.douban.com/v2/movie/'+$routeParams.category, {
 				count: count,
-				start: start
+				start: start,
+				//$routeParmas可以取路由里面的值比如category，page，也可以取?后面的值，比如count,start,q
+				q:$routeParams.q
 			}, function (data) {
 				//console.log(data);
 				$scope.title = data.title;
